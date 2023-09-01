@@ -1,0 +1,19 @@
+{
+  "content_scripts": [
+    {
+      "css": [
+        "iswf01.css"
+      ],
+      "js": [
+        "JQuery.js",
+        "iswf01.js"
+      ],
+      "matches": [
+        "http://iswf01:8080/block.cgi*"
+      ]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "Iswf01",
+  "version": "1.0"
+}
